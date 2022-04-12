@@ -1,0 +1,26 @@
+.fotarolo, .mezo {
+    border: 1px solid black;
+}
+
+.fotarolo {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mezo {
+    height: 180px;
+    width: 180px;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.leforditott {
+    display: none;
+}
